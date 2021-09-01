@@ -1,5 +1,6 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
+
 const galleryImages = {
     itemsList: document.querySelector('.gallery'),
   };
@@ -30,4 +31,5 @@ const galleryImages = {
     docClose: true,
     fadeSpeed: 500,
   });
+  
 console.log(galleryItems);
